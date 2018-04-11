@@ -1,0 +1,8 @@
+{{#each products}}
+<div class="col-4">
+    <img src="{{this.image}}" alt="Shopping item block">
+        <h4>{{this.name}}</h4>
+        <p>{{this.desc}}</p>
+        <span>{{this.pre-price}}</span><span class="price">{{this.price}}</span>
+</div>
+{{/each}}
